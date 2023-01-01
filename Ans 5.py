@@ -15,6 +15,16 @@ def swap_case():
     data = data.swapcase()
     temporary_file.write(data)
     
-
+def display_file():
+    main_file = open("swap_case.txt","r")
+    tempo_file = open("tempo_swap_case.txt","r")
+    line = main_file.read()
+    print("Main File : ")
+    print(line)
+    lines = tempo_file.read()
+    print("Temp File : ")
+    print(lines)
+    
 write_file()
 swap_case()
+display_file()
