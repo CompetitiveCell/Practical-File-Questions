@@ -17,7 +17,7 @@ def vowel_counts():
     for i in data:
         if i[0] in vowels:
             vowel_count += 1
-    print("Number of vowels in the file are", vowel_count)
+    print("Number of words starting with vowels in the file are", vowel_count)
 
 write_file()
 vowel_counts()
