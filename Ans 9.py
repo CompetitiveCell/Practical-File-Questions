@@ -29,7 +29,7 @@ def salary_compare():
             else:
                 found = False
     except EOFError:
-        if found == True:
+        if found == False:
             print("Record to be deleted not found")
         else:
             print("Record deleted")
