@@ -2,7 +2,8 @@ file = open("letter_file.txt", "w")
 
 #List definition
 vowels = ['a','A','e','E','i','I','o','O','u','U']
-consonants = ['b','B','c','C','d','D','f','F','g','G','h','H','j','J','k','K','l','L','m','M','n','N','p','P','q','Q','r','R','s','S','t','T','v','V','w','W','x','X','y','Y','z','Z']
+consonants = ['b','B','c','C','d','D','f','F','g','G','h','H','j','J','k','K','l','L','m','M','n','N',
+              'p','P','q','Q','r','R','s','S','t','T','v','V','w','W','x','X','y','Y','z','Z']
 
 #Write_File Function
 def write_file():
